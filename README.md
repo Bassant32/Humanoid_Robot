@@ -20,12 +20,10 @@ Test the robot’s performance in real-time football scenarios.
 
 # System Components
 
-Microcontroller : ESP
-
 Motors: Servo motors for leg and arm control
 
 Sensors: Mobile phone camera for object detection, ultrasonic sensor for distance measurement
 
-Software: Python / OpenCV for vision, Arduino IDE for motor control
+Software: Python / OpenCV for vision
 
 Power Source: Rechargeable Li-ion battery pack
