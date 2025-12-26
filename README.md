@@ -84,7 +84,7 @@ Mosaic augmentation was reduced.
 
 These changes resulted in smoother loss curves and more stable training behavior.
 
-System Integration
+System Integration:
 
 The trained model runs within a Python-based vision pipeline.
 
@@ -92,12 +92,6 @@ Real-time frames are captured using a ESP32_cam.
 
 Detection outputs (ball position and confidence) are passed to the movement control logic to guide robot actions.
 
-Future Work
+Future Work: 
 
-Extend detection to include:
-
-Goal posts
-
-Field boundaries
-
-Obstacles
+Extend detection to include ( Goal posts _ Field boundaries _ Obstacles )
