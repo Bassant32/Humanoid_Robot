@@ -22,8 +22,81 @@ Test the robot’s performance in real-time football scenarios.
 
 Motors: Servo motors for leg and arm control
 
-Sensors: Mobile phone camera for object detection, ultrasonic sensor for distance measurement
+Sensors: ESP32_cam 
 
 Software: Python / OpenCV for vision
 
 Power Source: Rechargeable Li-ion battery pack
+
+Vision-Based Detection Model
+Model Overview
+
+To enable autonomous behavior and intelligent decision-making, a deep learning–based object detection model was integrated into the humanoid robot system.
+The model is responsible for detecting the football in real time and guiding the robot’s movement accordingly.
+
+A YOLO (You Only Look Once) architecture was selected due to its:
+
+Real-time inference capability
+
+High detection accuracy
+
+Suitability for robotics and embedded systems
+
+Best Model :
+🔗 [[Google Drive Link – add here]](https://drive.google.com/file/d/1UYAT8nxeGcZ84a0SpvINdR0bbdYw65qB/view?usp=drive_link)
+Dataset
+
+Custom dataset collected from the robot’s point of view.
+
+Images include variations in:
+
+Lighting conditions
+
+Ball positions and distances
+
+Background complexity
+
+The dataset is manually annotated for the football class.
+
+📁 Dataset & Training Assets:
+🔗[ [Google Drive Link – add here]](https://drive.google.com/drive/folders/1FfqXchAo3R5Nu-eGQ3MDiFsXkTvR2cm7?usp=drive_link)
+
+Training Configuration
+
+Transfer learning was used to leverage pretrained YOLO weights.
+
+Input image size: 640 × 640.
+
+Training performed on a GPU-enabled environment.
+
+Data augmentation applied to improve robustness in real-world scenarios.
+
+Training Stability & Optimization
+
+Initial training experiments showed high loss oscillations, indicating unstable convergence.
+
+To improve stability:
+
+The learning rate was adjusted.
+
+Mosaic augmentation was reduced.
+
+These changes resulted in smoother loss curves and more stable training behavior.
+
+System Integration
+
+The trained model runs within a Python-based vision pipeline.
+
+Real-time frames are captured using a ESP32_cam.
+
+Detection outputs (ball position and confidence) are passed to the movement control logic to guide robot actions.
+
+Future Work
+
+Extend detection to include:
+
+Goal posts
+
+Field boundaries
+
+Obstacles
