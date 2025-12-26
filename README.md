@@ -28,7 +28,7 @@ Software: Python / OpenCV for vision
 
 Power Source: Rechargeable Li-ion battery pack
 
-Vision-Based Detection Model
+# Vision-Based Detection Model
 Model Overview
 
 To enable autonomous behavior and intelligent decision-making, a deep learning–based object detection model was integrated into the humanoid robot system.
@@ -42,7 +42,7 @@ High detection accuracy
 
 Suitability for robotics and embedded systems
 
-Best Model :
+📁Best Model :
 🔗 [[Google Drive Link – add here]](https://drive.google.com/file/d/1UYAT8nxeGcZ84a0SpvINdR0bbdYw65qB/view?usp=drive_link)
 Dataset
 
@@ -50,30 +50,30 @@ Custom dataset collected from the robot’s point of view.
 
 Images include variations in:
 
-Lighting conditions
+1. Lighting conditions
 
-Ball positions and distances
+2. Ball positions and distances
 
-Background complexity
+3. Background complexity
 
-The dataset is manually annotated for the football class.
+4. The dataset is manually annotated for the football class.
 
 📁 Dataset & Training Assets:
 🔗[ [Google Drive Link – add here]](https://drive.google.com/drive/folders/1FfqXchAo3R5Nu-eGQ3MDiFsXkTvR2cm7?usp=drive_link)
 
 Training Configuration
 
-Transfer learning was used to leverage pretrained YOLO weights.
+*Transfer learning was used to leverage pretrained YOLO weights.
 
-Input image size: 640 × 640.
+*Input image size: 640 × 640.
 
-Training performed on a GPU-enabled environment.
+*Training performed on a GPU-enabled environment.
 
-Data augmentation applied to improve robustness in real-world scenarios.
+*Data augmentation applied to improve robustness in real-world scenarios.
 
-Training Stability & Optimization
+*Training Stability & Optimization
 
-Initial training experiments showed high loss oscillations, indicating unstable convergence.
+*Initial training experiments showed high loss oscillations, indicating unstable convergence.
 
 To improve stability:
 
