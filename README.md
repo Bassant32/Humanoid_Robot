@@ -59,22 +59,22 @@ Images include variations in:
 4. The dataset is manually annotated for the football class.
 
 📁 Dataset & Training Assets:
-🔗[ [DataSetand all outputs]](https://drive.google.com/drive/folders/1FfqXchAo3R5Nu-eGQ3MDiFsXkTvR2cm7?usp=drive_link)
+🔗[ [DataSet and all outputs]](https://drive.google.com/drive/folders/1FfqXchAo3R5Nu-eGQ3MDiFsXkTvR2cm7?usp=drive_link)
 
 
 Training Configuration
 
-*Transfer learning was used to leverage pretrained YOLO weights.
+1. Transfer learning was used to leverage pretrained YOLO weights.
 
-*Input image size: 640 × 640.
+2. Input image size: 640 × 640.
 
-*Training performed on a GPU-enabled environment.
+3. Training performed on a GPU-enabled environment.
 
-*Data augmentation applied to improve robustness in real-world scenarios.
+4. Data augmentation applied to improve robustness in real-world scenarios.
 
-*Training Stability & Optimization
+5. Training Stability & Optimization
 
-*Initial training experiments showed high loss oscillations, indicating unstable convergence.
+6. Initial training experiments showed high loss oscillations, indicating unstable convergence.
 
 To improve stability:
 
