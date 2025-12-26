@@ -59,7 +59,9 @@ Images include variations in:
 4. The dataset is manually annotated for the football class.
 
 📁 Dataset & Training Assets:
-🔗[ [Google Drive Link – add here]](https://drive.google.com/drive/folders/1FfqXchAo3R5Nu-eGQ3MDiFsXkTvR2cm7?usp=drive_link)
+🔗[ [DataSetand all outputs]](https://drive.google.com/drive/folders/1FfqXchAo3R5Nu-eGQ3MDiFsXkTvR2cm7?usp=drive_link)
+
+
 Training Configuration
 
 *Transfer learning was used to leverage pretrained YOLO weights.
