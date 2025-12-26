@@ -59,7 +59,7 @@ Images include variations in:
 4. The dataset is manually annotated for the football class.
 
 📁 Dataset & Training Assets:
-🔗[ [Google Drive Link – add here]](https://drive.google.com/drive/folders/1FfqXchAo3R5Nu-eGQ3MDiFsXkTvR2cm7?usp=drive_link)
+🔗[ [Google Drive Link – add here]](https://drive.google.com/file/d/1UYAT8nxeGcZ84a0SpvINdR0bbdYw65qB/view?usp=drive_link))
 
 Training Configuration
 
