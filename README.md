@@ -20,13 +20,13 @@ Test the robot’s performance in real-time football scenarios.
 
 # System Components
 
-Motors: Servo motors for leg and arm control
+Motors: Servo motors for leg and arm control _ driver ()
 
 Sensors: ESP32_cam 
 
-Software: Python / OpenCV for vision
+Software: Python / OpenCV for vision _ arduino ide
 
-Power Source: Rechargeable Li-ion battery pack
+Power Source: Rechargeable Li-ion battery pack _ Buck converter
 
 # Vision-Based Detection Model
 Model Overview
@@ -95,3 +95,10 @@ Detection outputs (ball position and confidence) are passed to the movement cont
 Future Work: 
 
 Extend detection to include ( Goal posts _ Field boundaries _ Obstacles )
+
+## 👥 Team Information
+
+| Role | Name |
+| :--- | :--- |
+| **Team Members** | Mahmoud Sameh , Abdalla Eslam , Mohamed Abdalnasser , Nourhan Ali , Habiba Ahmed ,Nancy Adel, Bassant Mohamed Reda |
+| **Supervisor** | Dr. AL_Habrouk |
